@@ -1,0 +1,9 @@
+---
+- name: Install Spyder
+  ansible.builtin.dnf:
+    name:
+      - python3-spyder
+    state: latest
+  become: true
+
+# https://fedoraproject.org/wiki/Spyder

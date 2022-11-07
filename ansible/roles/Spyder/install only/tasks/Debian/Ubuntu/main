@@ -1,0 +1,6 @@
+---
+- name: install Spyder
+  ansible.builtin.apt:
+    pkg:
+    - spyder
+  become: true

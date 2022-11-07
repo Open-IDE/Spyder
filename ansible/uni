@@ -1,0 +1,7 @@
+---
+- hosts: test #,local
+  vars:
+    Anaconda: False
+
+  roles:
+  - Spyder/default

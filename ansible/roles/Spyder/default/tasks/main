@@ -1,0 +1,8 @@
+---
+- include_role:
+    name: Spyder/with Anaconda
+  when: Anaconda
+
+- include_role:
+    name: Spyder/install only
+  when: not Anaconda
